@@ -1,0 +1,33 @@
+//////////////////////
+
+Phần tích các thành phần thường gặp trên giao diện website có:
+
+    1. Header(Đầu trang)
+    2. Navigation(Điều hướng)
+    3. Breadcrumb
+    4. Sidebar
+    5. Slider
+    6. Content
+    7. Banner
+    8. Footer
+
+
+Phần tích giao diện website W3_band
+
+    1. Phân tích:
+        1. Header
+        2. Slider
+        3. Content
+            1. About
+            2. Tour
+            3. Contact
+            4. Image
+        4. Footer
+    2. Dựng base(xây móng)
+    3. Xây dựng từng phần theo phân tích
+    4. Hoàn thiện
+
+chú ý: 
+    Cài đặt thêm:
+    - Tạo thư mục fonts trong thư mục fonts cài thêm thư mục themify-icon
+    - Tạo thư mục img và tải thêm ảnh 
