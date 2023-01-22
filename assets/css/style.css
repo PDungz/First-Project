@@ -310,9 +310,9 @@ html {
 
 /* Places */
 #Content .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
-#Content .place-item {
+.place-item {
     width: 33.33333%;
 }
 #Content .place-img {
