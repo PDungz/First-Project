@@ -93,6 +93,7 @@ html {
     z-index: 1;
     height: 46px;
     background-color: #000;
+    overflow: hidden;
 }
 
 #nav, .search-bth {
@@ -160,6 +161,7 @@ html {
 
 }
 
+#Header .mobile-menu-btn,
 #Header .search-bth {
     float: right;
 }
@@ -167,7 +169,15 @@ html {
 #Header .search-bth:hover {
     background-color: #f44336;
 }
+#Header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
 
+#Header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+}
+
+#Header .menu-icon,
 #Header .search-icon {
     line-height: 46px;
     padding: 0 21px;

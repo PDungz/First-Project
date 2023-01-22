@@ -7,6 +7,7 @@
     <title>The Band</title>
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxvWEU65A3z6BFwGHxnJNwxDUFCdnNKPC62g&usqp=CAU" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -37,6 +38,10 @@
                 <i class="search-icon ti-search"></i>
             </div>
             <!-- End: Search button -->
+
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
         </div>
 
         <div id="Slider">
@@ -171,6 +176,33 @@
             <p class="copyright">Powered by <a href="#">w3.css</a></p>
         </div>
     </div>
+
+    <script>
+        var header = document.getElementById('Header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        
+        // Đóng/mở mobile menu
+        mobileMenu.onclick = function() {
+            var isClosed = header.clientHeight === headerHeight;
+            if(isClosed) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        // Tự động đóng mở khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for(var i = 0; i < menuItems.length; i++){
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function() {
+                header.style.height = null;
+            }
+        }
+</script>
+
 </body>
 </html>
 
