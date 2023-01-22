@@ -209,8 +209,11 @@ html {
 
 #Content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0 112px;
     margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #Content .section-heading {
