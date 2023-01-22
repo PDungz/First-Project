@@ -10,8 +10,16 @@
 
 /* Mobile */
 @media(max-width: 739px) {
+    #Header {
+        overflow: hidden;
+    }
+
     #nav {
         display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
     }
 
     #nav > li {
@@ -29,7 +37,16 @@
     #Header .mobile-menu-btn {
         display: block;
     }
+
+    #Header .subnav {
+        position: initial;
+        background-color: #333;
+    }
     
+    #Header .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
 }
 
 
