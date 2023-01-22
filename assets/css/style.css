@@ -185,6 +185,13 @@ html {
     color: #fff;
 }
 
+#Header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
 
 #Slider {
     position: relative;
