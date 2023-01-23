@@ -32,7 +32,7 @@ html {
 }
 
 .text-center {
-    text-align: center !;
+    text-align: center !important;
 }
 
 .row {
@@ -65,6 +65,7 @@ html {
 }
 
 .btn {
+    text-align: center;
     padding: 12px 16px;
     margin-bottom: 16px;
     border: none;
@@ -353,6 +354,17 @@ html {
     font-size: 18px;
     line-height: 1.5;
 }
+
+.contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    color: #101aef;
+    opacity: 0.6;
+} 
+
 
 .contact-info i[class*="ti-"] {
     width: 30px;
